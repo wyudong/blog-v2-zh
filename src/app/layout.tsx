@@ -1,34 +1,28 @@
 import { absoluteUrl } from '@/lib/utils'
 import { Metadata } from 'next'
+import { Noto_Sans_SC } from 'next/font/google';
 import '../styles/index.css'
 
 export const metadata: Metadata = {
-  metadataBase: new URL('https://outstatic.com'),
+  metadataBase: new URL('https://portfolio.wyudong.com'),
   title: {
-    default: 'Outstatic',
-    template: '%s | Outstatic'
+    default: 'wyudong',
+    template: '%s | wyudong'
   },
-  description: 'A blog starter built with Outstatic.',
+  description: 'my portfolio',
   openGraph: {
-    title: 'Outstatic - A Static Site CMS for Next.js',
-    description: 'A blog starter built with Outstatic.',
+    title: 'wyudong',
+    description: 'my portfolio',
     url: absoluteUrl('/'),
-    siteName: 'Next.js',
-    images: [
-      {
-        url: absoluteUrl('/images/og-image.png'),
-        width: 1800,
-        height: 1600
-      }
-    ],
     locale: 'en_US',
     type: 'website'
   },
   icons: {
-    icon: [{ url: '/favicon/favicon-32x32.png' }],
-    apple: [{ url: '/favicon/apple-touch-icon.png' }]
+    icon: [{ url: '/favicon/favicon.ico' }]
   }
 }
+
+const notoSansSC = Noto_Sans_SC({ subsets: ['latin'] });
 
 export default function RootLayout({
   children
@@ -37,7 +31,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body>{children}</body>
+      <body className={`${notoSansSC.className} bg-neutral-50`}>{children}</body>
     </html>
   )
 }
