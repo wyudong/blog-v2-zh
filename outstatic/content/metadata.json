@@ -1,6 +1,6 @@
 {
-  "commit": "a71f3f7b4ecb2629b81c2bf91838a3bdae8931f9",
-  "generated": "2025-02-14T17:43:29.307Z",
+  "commit": "d304dfc2a670008ffc5c586293b42515318a5c73",
+  "generated": "2025-02-14T17:46:45.010Z",
   "metadata": [
     {
       "__outstatic": {
@@ -110,6 +110,26 @@
       "tags": [
       ],
       "title": "社区论坛"
+    },
+    {
+      "__outstatic": {
+        "commit": "d304dfc2a670008ffc5c586293b42515318a5c73",
+        "hash": "2967623165",
+        "path": "outstatic/content/posts/fydeos-drop.md"
+      },
+      "author": {
+        "name": "Wang Yudong ",
+        "picture": "https://avatars.githubusercontent.com/u/5687273?v=4"
+      },
+      "collection": "posts",
+      "coverImage": "/images/cover-drop-E5MT.png",
+      "description": "类似隔空投送（AirDrop）的文件、文字传送工具。",
+      "publishedAt": "2025-02-14T18:31:39.330Z",
+      "slug": "fydeos-drop",
+      "status": "published",
+      "tags": [
+      ],
+      "title": "燧炻传送"
     }
   ]
 }
