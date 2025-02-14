@@ -1,78 +1,30 @@
 {
-  "commit": "f0f112dc64ff998f6c0fa3797a12412e8d170521",
-  "generated": "2025-02-14T17:30:04.738Z",
+  "commit": "1aeec7fb2c437f4d2e47e6c5ca2ba066cb3f2983",
+  "generated": "Fri, 14 Feb 2025 17:33:23 GMT",
   "metadata": [
     {
       "__outstatic": {
-        "commit": "2e47122b5b6d49d6d1ddb15bcd33edc4a0c1256e",
-        "hash": "217348983",
-        "path": "/outstatic/content/pages/home.md"
+        "commit": "b22b0f4f3d38a659cbab9b89ac2b7394f2446de4",
+        "hash": "425893791",
+        "path": "outstatic/content/projects/flycream-travel.md"
       },
       "author": {
         "name": "Andre Vitorio",
-        "picture": ""
+        "picture": "https://avatars.githubusercontent.com/u/1417109?v=4"
       },
-      "collection": "pages",
-      "coverImage": "",
-      "description": "This is my blog.",
-      "publishedAt": "2022-03-17T05:35:07.322Z",
-      "slug": "home",
-      "status": "published",
-      "title": "Home"
-    },
-    {
-      "__outstatic": {
-        "commit": "bf4993b965319da4cb9de4a3810fb4af12bdebd6",
-        "hash": "2596208214",
-        "path": "/outstatic/content/posts/how-to-create-an-outstatic-blog.md"
-      },
-      "author": {
-        "name": "Andre Vitorio"
-      },
-      "collection": "posts",
-      "coverImage": "/images/jupiter-spaceship.png",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore.",
-      "publishedAt": "2022-07-14T02:34:02.322Z",
-      "slug": "how-to-create-an-outstatic-blog",
-      "status": "published",
-      "tags": [
-        {
-          "label": "NextJs",
-          "value": "nextJs"
-        },
-        {
-          "label": "GitHub",
-          "value": "gitHub"
-        },
-        {
-          "label": "Outstatic",
-          "value": "outstatic"
-        }
-      ],
-      "title": "Learn how to create your blog with Outstatic"
-    },
-    {
-      "__outstatic": {
-        "commit": "d2f316fd04def3347c906f5227da5daf79971f61",
-        "hash": "4086614036",
-        "path": "/outstatic/content/posts/nothing-wrong.md"
-      },
-      "author": {
-        "name": "Andre Vitorio"
-      },
-      "collection": "posts",
-      "coverImage": "/images/industrial-pattern.png",
+      "collection": "projects",
+      "coverImage": "/images/flycream-travel.png",
       "description": "One more day, one more joy. I feel blessed.",
       "publishedAt": "2022-09-14T17:55:40.452Z",
-      "slug": "nothing-wrong",
+      "slug": "flycream-travel",
       "status": "published",
-      "title": "Nothing is wrong. Everything is perfect"
+      "title": "Flycream Travel"
     },
     {
       "__outstatic": {
         "commit": "aa1f387e5c66347e675bed0862b070d8946c95f4",
         "hash": "1055690014",
-        "path": "/outstatic/content/projects/couple-pizza.md"
+        "path": "outstatic/content/projects/couple-pizza.md"
       },
       "author": {
         "name": "Bob Marley"
@@ -89,7 +41,7 @@
       "__outstatic": {
         "commit": "caeb954ea1579e04b6b74c80ddf718e56c60a67d",
         "hash": "1076515129",
-        "path": "/outstatic/content/projects/bearbnb.md"
+        "path": "outstatic/content/projects/bearbnb.md"
       },
       "author": {
         "name": "Andre Vitorio"
@@ -104,25 +56,7 @@
     },
     {
       "__outstatic": {
-        "commit": "b22b0f4f3d38a659cbab9b89ac2b7394f2446de4",
-        "hash": "425893791",
-        "path": "/outstatic/content/projects/flycream-travel.md"
-      },
-      "author": {
-        "name": "Andre Vitorio",
-        "picture": "https://avatars.githubusercontent.com/u/1417109?v=4"
-      },
-      "collection": "projects",
-      "coverImage": "/images/flycream-travel.png",
-      "description": "One more day, one more joy. I feel blessed.",
-      "publishedAt": "2022-09-14T17:55:40.452Z",
-      "slug": "flycream-travel",
-      "status": "published",
-      "title": "Flycream Travel"
-    },
-    {
-      "__outstatic": {
-        "commit": "f0f112dc64ff998f6c0fa3797a12412e8d170521",
+        "commit": "98b63e5f737f447555641a7a7a23e69c0c8ec446",
         "hash": "1743213829",
         "path": "outstatic/content/posts/fydeos-store.md"
       },
@@ -136,9 +70,26 @@
       "publishedAt": "2025-02-14T18:11:10.586Z",
       "slug": "fydeos-store",
       "status": "published",
-      "tags": [
-      ],
+      "tags": "",
       "title": "应用商店"
+    },
+    {
+      "__outstatic": {
+        "commit": "2e47122b5b6d49d6d1ddb15bcd33edc4a0c1256e",
+        "hash": "217348983",
+        "path": "outstatic/content/pages/home.md"
+      },
+      "author": {
+        "name": "Andre Vitorio",
+        "picture": ""
+      },
+      "collection": "pages",
+      "coverImage": "",
+      "description": "This is my blog.",
+      "publishedAt": "2022-03-17T05:35:07.322Z",
+      "slug": "home",
+      "status": "published",
+      "title": "Home"
     }
   ]
 }
