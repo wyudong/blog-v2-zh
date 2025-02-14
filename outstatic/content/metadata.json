@@ -1,6 +1,6 @@
 {
-  "commit": "1aeec7fb2c437f4d2e47e6c5ca2ba066cb3f2983",
-  "generated": "Fri, 14 Feb 2025 17:33:23 GMT",
+  "commit": "a71f3f7b4ecb2629b81c2bf91838a3bdae8931f9",
+  "generated": "2025-02-14T17:43:29.307Z",
   "metadata": [
     {
       "__outstatic": {
@@ -90,6 +90,26 @@
       "slug": "home",
       "status": "published",
       "title": "Home"
+    },
+    {
+      "__outstatic": {
+        "commit": "a71f3f7b4ecb2629b81c2bf91838a3bdae8931f9",
+        "hash": "3081532643",
+        "path": "outstatic/content/posts/fydeos-community.md"
+      },
+      "author": {
+        "name": "Wang Yudong ",
+        "picture": "https://avatars.githubusercontent.com/u/5687273?v=4"
+      },
+      "collection": "posts",
+      "coverImage": "/images/cover-community-M3OD.png",
+      "description": "基于 Discourse 的论坛，定制主题外观和管理插件。",
+      "publishedAt": "2025-02-14T18:21:34.883Z",
+      "slug": "fydeos-community",
+      "status": "published",
+      "tags": [
+      ],
+      "title": "社区论坛"
     }
   ]
 }
