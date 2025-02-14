@@ -1,25 +1,7 @@
 {
-  "commit": "d304dfc2a670008ffc5c586293b42515318a5c73",
-  "generated": "2025-02-14T17:46:45.010Z",
+  "commit": "f4f7fb1536449cf306da96a336d86cc21d27062d",
+  "generated": "2025-02-14T19:36:53.629Z",
   "metadata": [
-    {
-      "__outstatic": {
-        "commit": "b22b0f4f3d38a659cbab9b89ac2b7394f2446de4",
-        "hash": "425893791",
-        "path": "outstatic/content/projects/flycream-travel.md"
-      },
-      "author": {
-        "name": "Andre Vitorio",
-        "picture": "https://avatars.githubusercontent.com/u/1417109?v=4"
-      },
-      "collection": "projects",
-      "coverImage": "/images/flycream-travel.png",
-      "description": "One more day, one more joy. I feel blessed.",
-      "publishedAt": "2022-09-14T17:55:40.452Z",
-      "slug": "flycream-travel",
-      "status": "published",
-      "title": "Flycream Travel"
-    },
     {
       "__outstatic": {
         "commit": "aa1f387e5c66347e675bed0862b070d8946c95f4",
