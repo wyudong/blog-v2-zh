@@ -1,6 +1,7 @@
-import Layout from '../components/Layout'
 import { load } from 'outstatic/server'
+import Layout from '../components/Layout'
 import ContentGrid from '../components/ContentGrid'
+import Header from '../components/Header'
 
 export default async function Index() {
   const { allPosts } = await getData()
@@ -8,9 +9,7 @@ export default async function Index() {
   return (
     <Layout>
       <div className="max-w-6xl mx-auto px-6">
-        <section className="py-8 text-center">
-          <div className="text-2xl">王宇东</div>
-        </section>
+        <Header />
         {allPosts.length > 0 && (
           <ContentGrid
             items={allPosts}

@@ -25,7 +25,7 @@ const ContentGrid = ({
       <h2 className="mb-8 text-5xl md:text-6xl font-bold tracking-tighter leading-tight">
         {title}
       </h2>
-      <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 md:gap-x-12 xl:gap-x-8 gap-y-8 pb-8">
+      <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 md:gap-x-12 xl:gap-x-8 md:gap-y-8 gay-y-2 pb-8">
         {items.map((item, id) => (
           <Link key={item.slug} href={`/${collection}/${item.slug}`}>
             <div className="cursor-pointer project-card md:w-full scale-100 overflow-hidden">
@@ -36,7 +36,8 @@ const ContentGrid = ({
                   className="object-cover object-center w-full h-auto"
                   width={0}
                   height={0}
-                  sizes="(min-width: 768px) 320px, 200px"
+                  sizes="(min-width: 1280px) 33vw, (min-width: 768px) 50vw, 100vw"
+                  quality={100}
                   priority={priority && id <= 6}
                 />
                 {collection === 'projects' && (
