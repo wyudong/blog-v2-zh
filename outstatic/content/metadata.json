@@ -1,6 +1,6 @@
 {
-  "commit": "f1d49d79a01c1d85981f368c71944529e6583183",
-  "generated": "2025-02-14T17:20:41.825Z",
+  "commit": "f0f112dc64ff998f6c0fa3797a12412e8d170521",
+  "generated": "2025-02-14T17:30:04.738Z",
   "metadata": [
     {
       "__outstatic": {
@@ -119,6 +119,26 @@
       "slug": "flycream-travel",
       "status": "published",
       "title": "Flycream Travel"
+    },
+    {
+      "__outstatic": {
+        "commit": "f0f112dc64ff998f6c0fa3797a12412e8d170521",
+        "hash": "1743213829",
+        "path": "outstatic/content/posts/fydeos-store.md"
+      },
+      "author": {
+        "name": "Wang Yudong ",
+        "picture": "https://avatars.githubusercontent.com/u/5687273?v=4"
+      },
+      "collection": "posts",
+      "coverImage": "/images/cover-store-c2OD.png",
+      "description": "提供下载网页应用、浏览器插件、皮肤和安卓程序。",
+      "publishedAt": "2025-02-14T18:11:10.586Z",
+      "slug": "fydeos-store",
+      "status": "published",
+      "tags": [
+      ],
+      "title": "应用商店"
     }
   ]
 }
