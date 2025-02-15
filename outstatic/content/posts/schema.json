@@ -22,6 +22,13 @@
           "label": "Outstatic"
         }
       ]
+    },
+    "rank": {
+      "required": false,
+      "description": "Display rank of this post",
+      "fieldType": "Number",
+      "dataType": "number",
+      "title": "rank"
     }
   }
 }
