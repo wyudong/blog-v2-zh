@@ -21,6 +21,18 @@
         {
           "value": "postgres",
           "label": "Postgres"
+        },
+        {
+          "value": "discourse",
+          "label": "Discourse"
+        },
+        {
+          "value": "ruby",
+          "label": "Ruby"
+        },
+        {
+          "value": "css",
+          "label": "CSS"
         }
       ],
       "fieldType": "Tags",

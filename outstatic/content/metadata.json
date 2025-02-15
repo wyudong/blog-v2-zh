@@ -1,6 +1,6 @@
 {
-  "commit": "90ee983d112d85933f60942af60d1423f757db96",
-  "generated": "2025-02-15T05:56:27.852Z",
+  "commit": "afb2e169fb006bba665f0b30514b2ef89420b98f",
+  "generated": "2025-02-15T05:59:41.415Z",
   "metadata": [
     {
       "__outstatic": {
@@ -77,43 +77,6 @@
     },
     {
       "__outstatic": {
-        "commit": "61e9baecc499057260b4c48abe18c30dfc52b016",
-        "hash": "372269481",
-        "path": "outstatic/content/posts/fydeos-community.md"
-      },
-      "author": {
-        "name": "Wang Yudong ",
-        "picture": "https://avatars.githubusercontent.com/u/5687273?v=4"
-      },
-      "collection": "posts",
-      "coverImage": "/images/cover-community-M3OD.png",
-      "description": "基于 Discourse 的论坛，定制主题外观和管理插件。",
-      "publishedAt": "2025-02-14T18:21:34.883Z",
-      "rank": "1",
-      "slug": "fydeos-community",
-      "status": "published",
-      "tags": [
-        {
-          "label": "React",
-          "value": "react"
-        },
-        {
-          "label": "Node.js",
-          "value": "nodeJs"
-        },
-        {
-          "label": "Golang",
-          "value": "golang"
-        },
-        {
-          "label": "Postgres",
-          "value": "postgres"
-        }
-      ],
-      "title": "社区论坛"
-    },
-    {
-      "__outstatic": {
         "commit": "90ee983d112d85933f60942af60d1423f757db96",
         "hash": "2837683998",
         "path": "outstatic/content/posts/fydeos-store.md"
@@ -148,6 +111,39 @@
         }
       ],
       "title": "应用商店"
+    },
+    {
+      "__outstatic": {
+        "commit": "afb2e169fb006bba665f0b30514b2ef89420b98f",
+        "hash": "1816994563",
+        "path": "outstatic/content/posts/fydeos-community.md"
+      },
+      "author": {
+        "name": "Wang Yudong ",
+        "picture": "https://avatars.githubusercontent.com/u/5687273?v=4"
+      },
+      "collection": "posts",
+      "coverImage": "/images/cover-community-M3OD.png",
+      "description": "基于 Discourse 的论坛，定制主题外观和管理插件。",
+      "publishedAt": "2025-02-14T18:21:34.883Z",
+      "rank": "2",
+      "slug": "fydeos-community",
+      "status": "published",
+      "tags": [
+        {
+          "label": "Discourse",
+          "value": "discourse"
+        },
+        {
+          "label": "Ruby",
+          "value": "ruby"
+        },
+        {
+          "label": "CSS",
+          "value": "css"
+        }
+      ],
+      "title": "社区论坛"
     }
   ]
 }

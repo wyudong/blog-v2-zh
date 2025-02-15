@@ -7,8 +7,8 @@ author:
 slug: 'fydeos-community'
 description: '基于 Discourse 的论坛，定制主题外观和管理插件。'
 coverImage: '/images/cover-community-M3OD.png'
-tags: [{"label":"React","value":"react"},{"label":"Node.js","value":"nodeJs"},{"label":"Golang","value":"golang"},{"label":"Postgres","value":"postgres"}]
-rank: '1'
+tags: [{"label":"Discourse","value":"discourse"},{"label":"Ruby","value":"ruby"},{"label":"CSS","value":"css"}]
+rank: '2'
 publishedAt: '2025-02-14T18:21:34.883Z'
 ---
 
