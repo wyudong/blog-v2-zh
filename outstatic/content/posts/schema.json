@@ -33,6 +33,22 @@
         {
           "value": "css",
           "label": "CSS"
+        },
+        {
+          "value": "html",
+          "label": "HTML"
+        },
+        {
+          "value": "javaScript",
+          "label": "JavaScript"
+        },
+        {
+          "value": "webRtc",
+          "label": "WebRTC"
+        },
+        {
+          "value": "pwa",
+          "label": "PWA"
         }
       ],
       "fieldType": "Tags",
