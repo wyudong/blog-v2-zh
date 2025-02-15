@@ -5,22 +5,7 @@
     "tags": {
       "required": false,
       "description": "Add tags to the post",
-      "fieldType": "Tags",
-      "dataType": "array",
-      "title": "Tags",
       "values": [
-        {
-          "value": "nextJs",
-          "label": "NextJs"
-        },
-        {
-          "value": "gitHub",
-          "label": "GitHub"
-        },
-        {
-          "value": "outstatic",
-          "label": "Outstatic"
-        },
         {
           "value": "react",
           "label": "React"
@@ -37,7 +22,10 @@
           "value": "postgres",
           "label": "Postgres"
         }
-      ]
+      ],
+      "fieldType": "Tags",
+      "dataType": "array",
+      "title": "Tags"
     },
     "rank": {
       "required": false,
