@@ -1,6 +1,6 @@
 {
-  "commit": "f4f7fb1536449cf306da96a336d86cc21d27062d",
-  "generated": "2025-02-14T19:37:04.391Z",
+  "commit": "61e9baecc499057260b4c48abe18c30dfc52b016",
+  "generated": "2025-02-15T05:55:31.787Z",
   "metadata": [
     {
       "__outstatic": {
@@ -76,26 +76,6 @@
     },
     {
       "__outstatic": {
-        "commit": "a71f3f7b4ecb2629b81c2bf91838a3bdae8931f9",
-        "hash": "3081532643",
-        "path": "outstatic/content/posts/fydeos-community.md"
-      },
-      "author": {
-        "name": "Wang Yudong ",
-        "picture": "https://avatars.githubusercontent.com/u/5687273?v=4"
-      },
-      "collection": "posts",
-      "coverImage": "/images/cover-community-M3OD.png",
-      "description": "基于 Discourse 的论坛，定制主题外观和管理插件。",
-      "publishedAt": "2025-02-14T18:21:34.883Z",
-      "slug": "fydeos-community",
-      "status": "published",
-      "tags": [
-      ],
-      "title": "社区论坛"
-    },
-    {
-      "__outstatic": {
         "commit": "d304dfc2a670008ffc5c586293b42515318a5c73",
         "hash": "2967623165",
         "path": "outstatic/content/posts/fydeos-drop.md"
@@ -113,6 +93,43 @@
       "tags": [
       ],
       "title": "燧炻传送"
+    },
+    {
+      "__outstatic": {
+        "commit": "61e9baecc499057260b4c48abe18c30dfc52b016",
+        "hash": "372269481",
+        "path": "outstatic/content/posts/fydeos-community.md"
+      },
+      "author": {
+        "name": "Wang Yudong ",
+        "picture": "https://avatars.githubusercontent.com/u/5687273?v=4"
+      },
+      "collection": "posts",
+      "coverImage": "/images/cover-community-M3OD.png",
+      "description": "基于 Discourse 的论坛，定制主题外观和管理插件。",
+      "publishedAt": "2025-02-14T18:21:34.883Z",
+      "rank": "1",
+      "slug": "fydeos-community",
+      "status": "published",
+      "tags": [
+        {
+          "label": "React",
+          "value": "react"
+        },
+        {
+          "label": "Node.js",
+          "value": "nodeJs"
+        },
+        {
+          "label": "Golang",
+          "value": "golang"
+        },
+        {
+          "label": "Postgres",
+          "value": "postgres"
+        }
+      ],
+      "title": "社区论坛"
     }
   ]
 }
