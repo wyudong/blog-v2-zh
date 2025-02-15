@@ -1,6 +1,6 @@
 {
-  "commit": "61e9baecc499057260b4c48abe18c30dfc52b016",
-  "generated": "2025-02-15T05:55:31.787Z",
+  "commit": "90ee983d112d85933f60942af60d1423f757db96",
+  "generated": "2025-02-15T05:56:27.852Z",
   "metadata": [
     {
       "__outstatic": {
@@ -36,25 +36,6 @@
       "slug": "bearbnb",
       "status": "published",
       "title": " 🧸 Bearbnb"
-    },
-    {
-      "__outstatic": {
-        "commit": "98b63e5f737f447555641a7a7a23e69c0c8ec446",
-        "hash": "1743213829",
-        "path": "outstatic/content/posts/fydeos-store.md"
-      },
-      "author": {
-        "name": "Wang Yudong ",
-        "picture": "https://avatars.githubusercontent.com/u/5687273?v=4"
-      },
-      "collection": "posts",
-      "coverImage": "/images/cover-store-c2OD.png",
-      "description": "提供下载网页应用、浏览器插件、皮肤和安卓程序。",
-      "publishedAt": "2025-02-14T18:11:10.586Z",
-      "slug": "fydeos-store",
-      "status": "published",
-      "tags": "",
-      "title": "应用商店"
     },
     {
       "__outstatic": {
@@ -130,6 +111,43 @@
         }
       ],
       "title": "社区论坛"
+    },
+    {
+      "__outstatic": {
+        "commit": "90ee983d112d85933f60942af60d1423f757db96",
+        "hash": "2837683998",
+        "path": "outstatic/content/posts/fydeos-store.md"
+      },
+      "author": {
+        "name": "Wang Yudong ",
+        "picture": "https://avatars.githubusercontent.com/u/5687273?v=4"
+      },
+      "collection": "posts",
+      "coverImage": "/images/cover-store-c2OD.png",
+      "description": "提供下载网页应用、浏览器插件、皮肤和安卓程序。",
+      "publishedAt": "2025-02-14T18:11:10.586Z",
+      "rank": "1",
+      "slug": "fydeos-store",
+      "status": "published",
+      "tags": [
+        {
+          "label": "React",
+          "value": "react"
+        },
+        {
+          "label": "Node.js",
+          "value": "nodeJs"
+        },
+        {
+          "label": "Golang",
+          "value": "golang"
+        },
+        {
+          "label": "Postgres",
+          "value": "postgres"
+        }
+      ],
+      "title": "应用商店"
     }
   ]
 }
