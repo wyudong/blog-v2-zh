@@ -1,6 +1,6 @@
 {
-  "commit": "d7aade01a2867f52a59fa83b4db80e91ce663191",
-  "generated": "2025-02-15T15:50:00.823Z",
+  "commit": "89859f3b577e43291f7742726753515771338205",
+  "generated": "2025-02-15T16:37:10.623Z",
   "metadata": [
     {
       "__outstatic": {
@@ -54,43 +54,6 @@
       "slug": "home",
       "status": "published",
       "title": "Home"
-    },
-    {
-      "__outstatic": {
-        "commit": "90ee983d112d85933f60942af60d1423f757db96",
-        "hash": "2837683998",
-        "path": "outstatic/content/posts/fydeos-store.md"
-      },
-      "author": {
-        "name": "Wang Yudong ",
-        "picture": "https://avatars.githubusercontent.com/u/5687273?v=4"
-      },
-      "collection": "posts",
-      "coverImage": "/images/cover-store-c2OD.png",
-      "description": "提供下载网页应用、浏览器插件、皮肤和安卓程序。",
-      "publishedAt": "2025-02-14T18:11:10.586Z",
-      "rank": "1",
-      "slug": "fydeos-store",
-      "status": "published",
-      "tags": [
-        {
-          "label": "React",
-          "value": "react"
-        },
-        {
-          "label": "Node.js",
-          "value": "nodeJs"
-        },
-        {
-          "label": "Golang",
-          "value": "golang"
-        },
-        {
-          "label": "Postgres",
-          "value": "postgres"
-        }
-      ],
-      "title": "应用商店"
     },
     {
       "__outstatic": {
@@ -165,6 +128,47 @@
         }
       ],
       "title": "社区论坛"
+    },
+    {
+      "__outstatic": {
+        "commit": "89859f3b577e43291f7742726753515771338205",
+        "hash": "1498212482",
+        "path": "outstatic/content/posts/fydeos-store.md"
+      },
+      "author": {
+        "name": "Wang Yudong ",
+        "picture": "https://avatars.githubusercontent.com/u/5687273?v=4"
+      },
+      "collection": "posts",
+      "coverImage": "/images/cover-store-c2OD.png",
+      "description": "提供下载网页应用、浏览器插件、皮肤和安卓程序。",
+      "publishedAt": "2025-02-14T18:11:10.586Z",
+      "rank": "1",
+      "slug": "fydeos-store",
+      "status": "published",
+      "tags": [
+        {
+          "label": "React",
+          "value": "react"
+        },
+        {
+          "label": "Node.js",
+          "value": "nodeJs"
+        },
+        {
+          "label": "MongoDb",
+          "value": "mongoDb"
+        },
+        {
+          "label": "Golang",
+          "value": "golang"
+        },
+        {
+          "label": "Postgres",
+          "value": "postgres"
+        }
+      ],
+      "title": "应用商店"
     }
   ]
 }
