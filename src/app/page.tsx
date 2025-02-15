@@ -8,7 +8,7 @@ export default async function Index() {
 
   return (
     <Layout>
-      <div className="max-w-6xl mx-auto px-6">
+      <div className="max-w-7xl mx-auto px-6">
         <Header />
         <div className="py-8 mb-4 home-hero-fade">
           <h1 className="text-6xl mb-8">嗨，</h1>
@@ -39,7 +39,7 @@ async function getData() {
       'description',
       'tags'
     ])
-    .sort({ publishedAt: -1 })
+    .sort({ rank: 1, publishedAt: -1 })
     .toArray()
 
   return {
