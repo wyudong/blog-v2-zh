@@ -14,15 +14,14 @@ type Props = {
 }
 
 const ContentGrid = ({
-  title = '',
+  title = '🛠️ 项目经验',
   items,
   collection,
   priority = false
 }: Props) => {
   return (
     <section id={collection}>
-      {/* 标题保持空白 */}
-      <h2 className="mb-8 text-5xl md:text-6xl font-bold tracking-tighter leading-tight">
+      <h2 className="mb-8 text-3xl md:text-4xl border-b pb-2">
         {title}
       </h2>
       <div className="grid grid-cols-1 md:grid-cols-2 md:gap-x-12 md:gap-y-8 mb-8">

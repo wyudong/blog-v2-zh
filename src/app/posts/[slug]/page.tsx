@@ -55,20 +55,19 @@ export default async function Post(params: Params) {
     <Layout>
       <div className="max-w-6xl mx-auto px-5">
         <article className='pb-16'>
-          <h1 className="font-primary text-2xl text-center font-semibold pt-8 pb-16">
-            {post.title}
-          </h1>
-          <div className="max-w-2xl mx-auto">
+          <div className='text-center border-b py-8 mb-8'>
+            <h1 className="text-4xl font-semibold mb-4">
+              {post.title}
+            </h1>
             {Array.isArray(post?.tags)
               ? post.tags.map(({ label }) => (
-                  <span
-                    key="label"
-                    className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-4"
-                  >
-                    {label}
-                  </span>
-                ))
+                <span key={label} className="inline-block rounded-sm bg-neutral-200 px-3 py-1 text-xs mr-2">
+                  {label}
+                </span>
+              ))
               : null}
+          </div>
+          <div className="max-w-xl mx-auto">
             <div
               className="prose lg:prose-xl"
               dangerouslySetInnerHTML={{ __html: post.content }}
