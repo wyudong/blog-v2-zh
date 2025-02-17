@@ -10,7 +10,11 @@ export const metadata: Metadata = {
   },
   description: 'my portfolio',
   icons: {
-    icon: [{ url: '/favicon/favicon.ico' }]
+    shortcut: '/favicon/favicon.ico',
+    icon: [
+      { url: '/favicon/favicon-96x96.png', type: 'image/png', sizes: '96x96' },
+    ],
+    apple: '/favicon/apple-touch-icon.png'
   }
 }
 
