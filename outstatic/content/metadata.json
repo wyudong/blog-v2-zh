@@ -1,6 +1,6 @@
 {
-  "commit": "ede07abe29509a3c65fdd0e6ac2ab2a4ab933f4d",
-  "generated": "2025-02-17T03:13:04.056Z",
+  "commit": "6ee7ddafdb66655f22ffaff311f0357440321f71",
+  "generated": "2025-02-17T03:13:23.397Z",
   "metadata": [
     {
       "__outstatic": {
@@ -54,47 +54,6 @@
       "slug": "home",
       "status": "published",
       "title": "Home"
-    },
-    {
-      "__outstatic": {
-        "commit": "7aa9207843955830cd1690aa2fd2a4524232fe62",
-        "hash": "341779996",
-        "path": "outstatic/content/posts/fydeos-store.md"
-      },
-      "author": {
-        "name": "Wang Yudong ",
-        "picture": "https://avatars.githubusercontent.com/u/5687273?v=4"
-      },
-      "collection": "posts",
-      "coverImage": "/images/cover-store-c2OD.png",
-      "description": "提供下载网页应用、浏览器插件、皮肤和安卓程序。",
-      "publishedAt": "2025-02-14T18:11:10.586Z",
-      "rank": "1",
-      "slug": "fydeos-store",
-      "status": "published",
-      "tags": [
-        {
-          "label": "React",
-          "value": "react"
-        },
-        {
-          "label": "Node.js",
-          "value": "nodeJs"
-        },
-        {
-          "label": "MongoDb",
-          "value": "mongoDb"
-        },
-        {
-          "label": "Golang",
-          "value": "golang"
-        },
-        {
-          "label": "Postgres",
-          "value": "postgres"
-        }
-      ],
-      "title": "应用商店"
     },
     {
       "__outstatic": {
@@ -169,6 +128,47 @@
         }
       ],
       "title": "社区论坛"
+    },
+    {
+      "__outstatic": {
+        "commit": "6ee7ddafdb66655f22ffaff311f0357440321f71",
+        "hash": "3837895804",
+        "path": "outstatic/content/posts/fydeos-store.md"
+      },
+      "author": {
+        "name": "Wang Yudong ",
+        "picture": "https://avatars.githubusercontent.com/u/5687273?v=4"
+      },
+      "collection": "posts",
+      "coverImage": "/images/cover-store-c2OD.png",
+      "description": "提供下载网页应用、浏览器插件、皮肤和安卓程序。",
+      "publishedAt": "2025-02-14T18:11:10.586Z",
+      "rank": "1",
+      "slug": "fydeos-store",
+      "status": "published",
+      "tags": [
+        {
+          "label": "React",
+          "value": "react"
+        },
+        {
+          "label": "Node.js",
+          "value": "nodeJs"
+        },
+        {
+          "label": "MongoDb",
+          "value": "mongoDb"
+        },
+        {
+          "label": "Golang",
+          "value": "golang"
+        },
+        {
+          "label": "Postgres",
+          "value": "postgres"
+        }
+      ],
+      "title": "应用商店"
     }
   ]
 }
