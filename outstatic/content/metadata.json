@@ -1,6 +1,6 @@
 {
-  "commit": "7aa9207843955830cd1690aa2fd2a4524232fe62",
-  "generated": "2025-02-17T02:21:44.076Z",
+  "commit": "4569c02ce050d619a9fd93dd8cfbf8ed02ae52ad",
+  "generated": "2025-02-17T03:11:23.617Z",
   "metadata": [
     {
       "__outstatic": {
@@ -54,47 +54,6 @@
       "slug": "home",
       "status": "published",
       "title": "Home"
-    },
-    {
-      "__outstatic": {
-        "commit": "c004563d571e0263580a71a420d3b272a2f5ab02",
-        "hash": "2521390004",
-        "path": "outstatic/content/posts/fydeos-drop.md"
-      },
-      "author": {
-        "name": "Wang Yudong ",
-        "picture": "https://avatars.githubusercontent.com/u/5687273?v=4"
-      },
-      "collection": "posts",
-      "coverImage": "/images/cover-drop-E5MT.png",
-      "description": "类似隔空投送（AirDrop）的文件、文字共享工具。",
-      "publishedAt": "2025-02-14T18:31:39.330Z",
-      "rank": "3",
-      "slug": "fydeos-drop",
-      "status": "published",
-      "tags": [
-        {
-          "label": "HTML",
-          "value": "html"
-        },
-        {
-          "label": "JavaScript",
-          "value": "javaScript"
-        },
-        {
-          "label": "Node.js",
-          "value": "nodeJs"
-        },
-        {
-          "label": "WebRTC",
-          "value": "webRtc"
-        },
-        {
-          "label": "PWA",
-          "value": "pwa"
-        }
-      ],
-      "title": "文件共享"
     },
     {
       "__outstatic": {
@@ -169,6 +128,47 @@
         }
       ],
       "title": "应用商店"
+    },
+    {
+      "__outstatic": {
+        "commit": "4569c02ce050d619a9fd93dd8cfbf8ed02ae52ad",
+        "hash": "499005543",
+        "path": "outstatic/content/posts/fydeos-drop.md"
+      },
+      "author": {
+        "name": "Wang Yudong ",
+        "picture": "https://avatars.githubusercontent.com/u/5687273?v=4"
+      },
+      "collection": "posts",
+      "coverImage": "/images/cover-drop-E5MT.png",
+      "description": "类似隔空投送（AirDrop）的文件、文字共享工具。",
+      "publishedAt": "2025-02-14T18:31:39.330Z",
+      "rank": "3",
+      "slug": "fydeos-drop",
+      "status": "published",
+      "tags": [
+        {
+          "label": "HTML",
+          "value": "html"
+        },
+        {
+          "label": "JavaScript",
+          "value": "javaScript"
+        },
+        {
+          "label": "Node.js",
+          "value": "nodeJs"
+        },
+        {
+          "label": "WebRTC",
+          "value": "webRtc"
+        },
+        {
+          "label": "PWA",
+          "value": "pwa"
+        }
+      ],
+      "title": "文件共享"
     }
   ]
 }
