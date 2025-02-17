@@ -1,6 +1,6 @@
 {
-  "commit": "89859f3b577e43291f7742726753515771338205",
-  "generated": "2025-02-15T16:37:10.623Z",
+  "commit": "2d79e73a49b5e4da69d77feaa062a13862669493",
+  "generated": "2025-02-17T02:18:00.448Z",
   "metadata": [
     {
       "__outstatic": {
@@ -98,39 +98,6 @@
     },
     {
       "__outstatic": {
-        "commit": "d7aade01a2867f52a59fa83b4db80e91ce663191",
-        "hash": "1739511001",
-        "path": "outstatic/content/posts/fydeos-community.md"
-      },
-      "author": {
-        "name": "Wang Yudong ",
-        "picture": "https://avatars.githubusercontent.com/u/5687273?v=4"
-      },
-      "collection": "posts",
-      "coverImage": "/images/cover-community-M3OD.png",
-      "description": "基于 Discourse 开发的论坛，定制主题外观和管理插件。",
-      "publishedAt": "2025-02-14T18:21:34.883Z",
-      "rank": "2",
-      "slug": "fydeos-community",
-      "status": "published",
-      "tags": [
-        {
-          "label": "Discourse",
-          "value": "discourse"
-        },
-        {
-          "label": "Ruby",
-          "value": "ruby"
-        },
-        {
-          "label": "CSS",
-          "value": "css"
-        }
-      ],
-      "title": "社区论坛"
-    },
-    {
-      "__outstatic": {
         "commit": "89859f3b577e43291f7742726753515771338205",
         "hash": "1498212482",
         "path": "outstatic/content/posts/fydeos-store.md"
@@ -169,6 +136,39 @@
         }
       ],
       "title": "应用商店"
+    },
+    {
+      "__outstatic": {
+        "commit": "2d79e73a49b5e4da69d77feaa062a13862669493",
+        "hash": "2322269889",
+        "path": "outstatic/content/posts/fydeos-community.md"
+      },
+      "author": {
+        "name": "Wang Yudong ",
+        "picture": "https://avatars.githubusercontent.com/u/5687273?v=4"
+      },
+      "collection": "posts",
+      "coverImage": "/images/cover-community-M3OD.png",
+      "description": "基于 Discourse 开发的论坛，定制主题外观和管理插件。",
+      "publishedAt": "2025-02-14T18:21:34.883Z",
+      "rank": "2",
+      "slug": "fydeos-community",
+      "status": "published",
+      "tags": [
+        {
+          "label": "Discourse",
+          "value": "discourse"
+        },
+        {
+          "label": "Ruby",
+          "value": "ruby"
+        },
+        {
+          "label": "CSS",
+          "value": "css"
+        }
+      ],
+      "title": "社区论坛"
     }
   ]
 }
