@@ -1,3 +1,5 @@
+'use client'
+import { useEffect, useRef } from 'react'
 import type { OstDocument } from 'outstatic'
 import Link from 'next/link'
 import Image from 'next/image'
@@ -19,6 +21,35 @@ const ContentGrid = ({
   collection,
   priority = false
 }: Props) => {
+  const coverRefs = useRef<(HTMLAnchorElement | null)[]>([])
+
+  useEffect(() => {
+    const observer = new IntersectionObserver(
+      (entries) => {
+        entries.forEach((entry) => {
+          if (entry.isIntersecting) {
+            entry.target.classList.add('visible')
+          }
+        })
+      },
+      { threshold: 0.1 }
+    )
+
+    coverRefs.current.forEach((ref) => {
+      if (ref) {
+        observer.observe(ref)
+      }
+    })
+
+    return () => {
+      coverRefs.current.forEach((ref) => {
+        if (ref) {
+          observer.unobserve(ref)
+        }
+      })
+    }
+  }, [])
+
   return (
     <section id={collection}>
       <h2 className="mb-8 text-3xl md:text-4xl border-b pb-2">
@@ -26,7 +57,12 @@ const ContentGrid = ({
       </h2>
       <div className="grid grid-cols-1 md:grid-cols-2 md:gap-x-12 md:gap-y-8 mb-8">
         {items.map((item, id) => (
-          <Link key={item.slug} href={`/${collection}/${item.slug}`}>
+          <Link
+            key={item.slug}
+            href={`/${collection}/${item.slug}`}
+            className="move-in"
+            ref={(el) => { coverRefs.current[id] = el; }}
+          >
             <div className="cursor-pointer project-card md:w-full scale-100 overflow-hidden">
               <div className="sm:mx-0">
                 <Image

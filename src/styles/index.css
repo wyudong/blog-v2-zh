@@ -17,3 +17,13 @@
     animation-delay: 0.5s;
   }
 }
+
+.move-in {
+  opacity: 0;
+  transition: transform 0.75s ease, opacity 0.75s ease-in;
+}
+
+.move-in.visible {
+  opacity: 1;
+  transform: translateY(15px);
+}
