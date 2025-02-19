@@ -1,6 +1,6 @@
 {
-  "commit": "388524e57d119765b54884483ef29e4741bd969d",
-  "generated": "2025-02-19T02:33:15.723Z",
+  "commit": "ffb32217214e5a25af56d3182c7bdff158c8f55e",
+  "generated": "2025-02-19T02:44:09.256Z",
   "metadata": [
     {
       "__outstatic": {
@@ -98,8 +98,45 @@
     },
     {
       "__outstatic": {
-        "commit": "6ee7ddafdb66655f22ffaff311f0357440321f71",
-        "hash": "3837895804",
+        "commit": "388524e57d119765b54884483ef29e4741bd969d",
+        "hash": "855784607",
+        "path": "outstatic/content/posts/fydeos-community.md"
+      },
+      "author": {
+        "name": "Wang Yudong ",
+        "picture": "https://avatars.githubusercontent.com/u/5687273?v=4"
+      },
+      "collection": "posts",
+      "coverImage": "/images/cover-community-M3OD.png",
+      "description": "基于 Discourse 开发的论坛，定制主题外观和管理插件。",
+      "publishedAt": "2025-02-14T18:21:34.883Z",
+      "rank": "2",
+      "slug": "fydeos-community",
+      "status": "published",
+      "tags": [
+        {
+          "label": "Discourse",
+          "value": "discourse"
+        },
+        {
+          "label": "Ruby",
+          "value": "ruby"
+        },
+        {
+          "label": "CSS",
+          "value": "css"
+        },
+        {
+          "label": "Postgres",
+          "value": "postgres"
+        }
+      ],
+      "title": "社区论坛"
+    },
+    {
+      "__outstatic": {
+        "commit": "ffb32217214e5a25af56d3182c7bdff158c8f55e",
+        "hash": "1463878320",
         "path": "outstatic/content/posts/fydeos-store.md"
       },
       "author": {
@@ -136,43 +173,6 @@
         }
       ],
       "title": "应用商店"
-    },
-    {
-      "__outstatic": {
-        "commit": "388524e57d119765b54884483ef29e4741bd969d",
-        "hash": "855784607",
-        "path": "outstatic/content/posts/fydeos-community.md"
-      },
-      "author": {
-        "name": "Wang Yudong ",
-        "picture": "https://avatars.githubusercontent.com/u/5687273?v=4"
-      },
-      "collection": "posts",
-      "coverImage": "/images/cover-community-M3OD.png",
-      "description": "基于 Discourse 开发的论坛，定制主题外观和管理插件。",
-      "publishedAt": "2025-02-14T18:21:34.883Z",
-      "rank": "2",
-      "slug": "fydeos-community",
-      "status": "published",
-      "tags": [
-        {
-          "label": "Discourse",
-          "value": "discourse"
-        },
-        {
-          "label": "Ruby",
-          "value": "ruby"
-        },
-        {
-          "label": "CSS",
-          "value": "css"
-        },
-        {
-          "label": "Postgres",
-          "value": "postgres"
-        }
-      ],
-      "title": "社区论坛"
     }
   ]
 }
