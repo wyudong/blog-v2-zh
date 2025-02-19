@@ -7,14 +7,16 @@ author:
 slug: 'fydeos-community'
 description: '基于 Discourse 开发的论坛，定制主题外观和管理插件。'
 coverImage: '/images/cover-community-M3OD.png'
-tags: [{"label":"Discourse","value":"discourse"},{"label":"Ruby","value":"ruby"},{"label":"CSS","value":"css"}]
+tags: [{"label":"Discourse","value":"discourse"},{"label":"Ruby","value":"ruby"},{"label":"CSS","value":"css"},{"value":"postgres","label":"Postgres"}]
 rank: '2'
 publishedAt: '2025-02-14T18:21:34.883Z'
 ---
 
 ![](/images/cover-community-QwOT.png)
 
-Discourse 是一款开源论坛软件，采用 Ember.js 与 Ruby on Rails 技术栈构建。
+\[[访问网站](https://community.fydeos.com)\]
+
+Discourse 是一款开源论坛软件，框架采用 Ember.js 与 Ruby on Rails 技术栈构建。
 
 主要工作内容：
 
