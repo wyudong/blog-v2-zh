@@ -63,7 +63,7 @@ const ContentGrid = ({
             className="move-in"
             ref={(el) => { coverRefs.current[id] = el; }}
           >
-            <div className="cursor-pointer project-card md:w-full scale-100 overflow-hidden">
+            <div className="cursor-pointer project-card md:w-full transition duration-500 hover:scale-105 overflow-hidden">
               <div className="sm:mx-0">
                 <Image
                   src={item.coverImage ?? ''}
