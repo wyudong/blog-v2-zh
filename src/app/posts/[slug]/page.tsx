@@ -73,6 +73,9 @@ export default async function Post(params: Params) {
               dangerouslySetInnerHTML={{ __html: post.content }}
             />
           </div>
+          <div className="text-center text-sm underline mt-8">
+            <a href="/">[首页]</a>
+          </div>
         </article>
       </div>
     </Layout>
